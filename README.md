@@ -20,7 +20,7 @@ This script solves the problem by automating the creation and management of a ho
 
 - Clone the Project
 - Move it to a Directory that you want to
-- Run the `add_current_local_ip_scheduler.ps1` as Administrator - It will create a Task-Scheduler that run our script as soon as the network reconnects
+- Run the `add_current_local_ip_scheduler.ps1` as Administrator - It will create a Task-Scheduler that runs our script as soon as the network reconnects
 - Disconnect your Network and Connect again - Two PowerShell windows will briefly open and close.
 - Done. Your public IP address hostname is created in the Windows hosts file and you can use it as a `local_ip` name in your development connections
 
@@ -28,7 +28,7 @@ This script solves the problem by automating the creation and management of a ho
 
 ## 🆑 Commands
 
-Just follow the below command in Windows Powershell
+Go to the Project directory, Run the Windows Powershell as Administrator, and Just follow the below command
 
 ```bash
 cd /schedule
